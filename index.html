@@ -1,26 +1,108 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bossa Baby</title>
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bossa Baby</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background-color: #fffaf4;
+      color: #4a4a4a;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(145deg, #ffe4d6, #d8f5e6);
+    }
+    header img {
+      max-width: 160px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0.5rem 0;
+    }
+    .tagline {
+      font-size: 1.2rem;
+      color: #666;
+    }
+    .cta-button {
+      margin-top: 1.5rem;
+      background-color: #fca39c;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .cta-button:hover {
+      background-color: #fa8d84;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .coming-soon {
+      text-align: center;
+      font-size: 1.1rem;
+      color: #999;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #f1f1f1;
+      font-size: 0.9rem;
+    }
+    .socials a {
+      margin: 0 0.5rem;
+      color: #4a4a4a;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="Bossa Baby Logo" class="logo" />
-        <h1>Welcome to Bossa Baby</h1>
-        <p>Soothing Bossa Nova Songs for Kids</p>
-    </header>
-    <main>
-        <section class="intro">
-            <p>Enjoy calm, joyful music for babies, toddlers, and parents. Check out our YouTube channel for the latest videos!</p>
-            <a href="https://youtube.com" target="_blank" class="button">Visit YouTube Channel</a>
-        </section>
-    </main>
-    <footer>
-        <p>© 2025 Bossa Baby. All rights reserved.</p>
-    </footer>
+  <header>
+    <img src="/images/lulo-logo.png" alt="Bossa Baby Logo" />
+    <h1>Bossa Baby</h1>
+    <p class="tagline">Soothing Bossa Nova for Little Ears</p>
+    <a href="https://www.youtube.com/@BossaBaby" target="_blank">
+      <button class="cta-button">Watch on YouTube</button>
+    </a>
+  </header>
+
+  <section>
+    <h2 class="section-title">About Bossa Baby</h2>
+    <p>Bossa Baby creates gentle, bossa nova style nursery rhymes that calm children and bring peace to parents. With a mix of timeless melodies and tropical rhythms, we’re building a relaxing soundscape for the whole family.</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Featured Songs</h2>
+    <p class="coming-soon">🎵 Coming soon...</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Meet Lulo the Bear</h2>
+    <p>Lulo is our lovable mascot — a sleepy bear with a big heart and a tiny guitar. He’s here to guide your little ones through calm and cozy musical adventures.</p>
+  </section>
+
+  <footer>
+    <div class="socials">
+      <a href="https://www.youtube.com/@BossaBaby" target="_blank">YouTube</a> |
+      <a href="#">Instagram</a>
+    </div>
+    <p>© 2025 Bossa Baby — bossababy.net</p>
+  </footer>
 </body>
 </html>
